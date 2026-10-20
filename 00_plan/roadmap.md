@@ -185,6 +185,6 @@ Phases 1–5 build fluency with the API; phases 6–10 move to the engine, scale
 
 Learn a phase first, then write its posts, so each article comes from code you have actually run.
 
-1. **Learn:** Claude explains the day's concepts and gives tasks; you write the notebook yourself in `notebooks/`. Claude then reviews it and suggests improvements. Claude's own versions, when made, live in `notebooks/_reference/`.
-2. **Write:** turn the notebook into a draft in `drafts/` using the post template, then edit it in your voice.
+1. **Learn:** Claude explains the day's concepts and gives tasks; you experiment in `learning/day_NNN.ipynb` (scratch, not committed). Claude reviews it.
+2. **Publish:** your code plus the review becomes `notebooks/day_NNN_<slug>.ipynb` (clean, runs top to bottom, committed), and the post becomes `posts/day_NNN_<slug>.md` from the template.
 3. **Track:** `tracker.csv` holds day, topic, learn status, draft status and publish date.

@@ -14,6 +14,9 @@ data/**
 # small CSVs that ARE part of the project can be re-included, e.g.
 !00_plan/tracker.csv
 
+# --- Scratch learning notebooks (personal, never published) ---
+learning/
+
 # --- Python / uv ---
 .venv/
 __pycache__/

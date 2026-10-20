@@ -25,4 +25,4 @@ import polars as pl
 
 **Tomorrow:** <teaser for the next day>
 
-*Code: notebooks/day_NNN_<slug>.ipynb*
+*Code: [notebooks/day_NNN_<slug>.ipynb](https://github.com/double-espresso-data/100-days-of-polars/blob/main/notebooks/day_NNN_<slug>.ipynb)*
