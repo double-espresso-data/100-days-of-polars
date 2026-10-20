@@ -1,0 +1,39 @@
+# --- Data (download from Kaggle / NYC TLC; never commit) ---
+data/**
+!data/
+!data/*/
+!data/**/.gitkeep
+*.csv
+*.parquet
+*.feather
+*.arrow
+*.ipc
+*.ndjson
+*.zip
+*.gz
+# small CSVs that ARE part of the project can be re-included, e.g.
+!00_plan/tracker.csv
+
+# --- Python / uv ---
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Editors / OS ---
+.vscode/*
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Secrets ---
+.env
+*.env

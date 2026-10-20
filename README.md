@@ -1,0 +1,13 @@
+# 100 Days of Polars
+
+Learning Polars and publishing a 100-post series on Medium.
+
+| Folder | What lives there |
+| --- | --- |
+| `00_plan/` | `roadmap.md` (all 100 topics), `tracker.csv` (status per day), `post_template.md` |
+| `notebooks/` | one notebook per day: `day_001_why_polars.ipynb` |
+| `drafts/` | Medium drafts: `day_001_why_polars.md` |
+| `data/raw`, `data/processed` | datasets (not committed): e-commerce orders for Days 1–54, NYC taxi from Day 55 |
+| `assets/` | images and diagrams for posts |
+
+Setup: `uv sync` (creates `.venv` from `pyproject.toml` and `uv.lock`). Run notebooks with the `.venv` kernel; they start in the project root, so use paths like `data/raw/...`.
