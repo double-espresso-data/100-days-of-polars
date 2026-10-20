@@ -1,5 +1,5 @@
-day,phase,phase_name,topic,dataset,learn_status,draft_status,publish_date,medium_url,notes
-1,1,Foundations and mental model,Why Polars exists: where pandas hurts at scale,e-commerce,in progress,not started,,,notebook ready
+day,phase,phase_name,topic,dataset,learn_status,post_status,publish_date,medium_url,notes
+1,1,Foundations and mental model,Why Polars exists: where pandas hurts at scale,e-commerce,in progress,not started,,,
 2,1,Foundations and mental model,Arrow columnar memory and why Polars is fast,e-commerce,not started,not started,,,
 3,1,Foundations and mental model,Installing Polars and picking the right build,e-commerce,not started,not started,,,
 4,1,Foundations and mental model,"Series and DataFrame: schema, no index",e-commerce,not started,not started,,,

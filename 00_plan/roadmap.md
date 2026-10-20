@@ -1,7 +1,5 @@
 # 100 Days of Polars — Roadmap
 
-Source of truth: https://claude.ai/code/artifact/d49c336a-daaf-418f-bd65-ef02c74b385f (local copy exported Oct 19, 2026)
-
 ## Series overview
 
 100 posts over about 29 weeks (3–4 a week), taking an intermediate data engineer to expert-level Polars. The series skips "what is a dataframe" and goes straight to how Polars thinks: expressions, lazy plans, Arrow memory and the query optimizer.
@@ -181,10 +179,10 @@ Phases 1–5 build fluency with the API; phases 6–10 move to the engine, scale
 | 99 | Capstone: an end-to-end pipeline | everything |
 | 100 | Retrospective and what's next | — |
 
-## How we'll work
+## Workflow
 
 Learn a phase first, then write its posts, so each article comes from code you have actually run.
 
-1. **Learn:** Claude explains the day's concepts and gives tasks; you experiment in `learning/day_NNN.ipynb` (scratch, not committed). Claude reviews it.
+1. **Learn:** study the day's concepts and work through the tasks in `learning/day_NNN.ipynb` (scratch, not committed), then review the code.
 2. **Publish:** your code plus the review becomes `notebooks/day_NNN_<slug>.ipynb` (clean, runs top to bottom, committed), and the post becomes `posts/day_NNN_<slug>.md` from the template.
-3. **Track:** `tracker.csv` holds day, topic, learn status, draft status and publish date.
+3. **Track:** `tracker.csv` holds day, topic, dataset, learn status, post status, publish date and Medium link.
