@@ -33,6 +33,7 @@ Phases 1–5 build fluency with the API; phases 6–10 move to the engine, scale
 
 | Day | Topic | Key APIs |
 | --- | --- | --- |
+| 0 | Series intro: the plan and the series index (updated as posts go live) | — |
 | 1 | Why Polars exists: where pandas hurts at scale | — |
 | 2 | Arrow columnar memory and why Polars is fast | Arrow, chunks |
 | 3 | Installing Polars and picking the right build | `polars`, `polars[gpu]`, `show_versions` |

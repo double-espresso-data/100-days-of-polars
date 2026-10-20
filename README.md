@@ -7,7 +7,7 @@ Learning Polars and publishing a 100-post series on Medium.
 | `00_plan/` | `roadmap.md` (all 100 topics), `tracker.csv` (status per day), `post_template.md` |
 | `learning/` | scratch notebooks while learning (not committed) |
 | `notebooks/` | published notebook per day, linked from the post: `day_001_why_polars.ipynb` |
-| `posts/` | Medium posts in markdown: `day_001_why_polars.md` |
+| `posts/` | Medium post drafts in markdown, kept local (git-ignored): `day_001_why_polars.md` |
 | `data/raw`, `data/processed` | datasets (not committed): e-commerce orders for Days 1–54, NYC taxi from Day 55 |
 | `assets/` | images and diagrams for posts |
 

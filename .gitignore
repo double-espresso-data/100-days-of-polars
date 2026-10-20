@@ -17,6 +17,10 @@ data/**
 # --- Scratch learning notebooks (personal, never published) ---
 learning/
 
+# --- Medium post drafts (kept local, published on Medium) ---
+posts/
+medium/
+
 # --- Python / uv ---
 .venv/
 __pycache__/

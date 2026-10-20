@@ -1,12 +1,13 @@
 day,phase,phase_name,topic,dataset,learn_status,post_status,publish_date,medium_url,notes
-1,1,Foundations and mental model,Why Polars exists: where pandas hurts at scale,e-commerce,in progress,not started,,,
-2,1,Foundations and mental model,Arrow columnar memory and why Polars is fast,e-commerce,not started,not started,,,
-3,1,Foundations and mental model,Installing Polars and picking the right build,e-commerce,not started,not started,,,
-4,1,Foundations and mental model,"Series and DataFrame: schema, no index",e-commerce,not started,not started,,,
-5,1,Foundations and mental model,Reading data: read vs scan,e-commerce,not started,not started,,,
-6,1,Foundations and mental model,The four contexts,e-commerce,not started,not started,,,
-7,1,Foundations and mental model,Eager vs lazy in one picture,e-commerce,not started,not started,,,
-8,1,Foundations and mental model,pandas habits to unlearn: a cheat sheet,e-commerce,not started,not started,,,
+0,1,Foundations and mental model,Series intro: the plan and the series index,e-commerce,n/a,draft,,,"update index with each Medium link"
+1,1,Foundations and mental model,Why Polars exists: where pandas hurts at scale,e-commerce,review,draft,,,"run notebook, fill TODOs"
+2,1,Foundations and mental model,Arrow columnar memory and why Polars is fast,e-commerce,review,draft,,,"run notebook, fill TODOs"
+3,1,Foundations and mental model,Installing Polars and picking the right build,e-commerce,review,draft,,,"run notebook, fill TODOs"
+4,1,Foundations and mental model,"Series and DataFrame: schema, no index",e-commerce,review,draft,,,"run notebook, fill TODOs"
+5,1,Foundations and mental model,Reading data: read vs scan,e-commerce,review,draft,,,"run notebook, fill TODOs"
+6,1,Foundations and mental model,The four contexts,e-commerce,review,draft,,,"run notebook, fill TODOs"
+7,1,Foundations and mental model,Eager vs lazy in one picture,e-commerce,review,draft,,,"run notebook, fill TODOs"
+8,1,Foundations and mental model,pandas habits to unlearn: a cheat sheet,e-commerce,review,draft,,,"run notebook, fill TODOs"
 9,2,Expressions,What an expression really is,e-commerce,not started,not started,,,
 10,2,Expressions,"Selecting columns by name, regex and dtype",e-commerce,not started,not started,,,
 11,2,Expressions,Column selectors,e-commerce,not started,not started,,,
