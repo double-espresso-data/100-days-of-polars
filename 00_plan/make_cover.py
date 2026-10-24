@@ -38,6 +38,15 @@ COVERS = {
                 "4 design choices behind the speed"],
         apis=["pl.read_csv", "pl.scan_csv", ".collect()"],
     ),
+    2: dict(
+        phase=1,
+        title=["Arrow columnar memory:", "why Polars is fast"],
+        points=["Text column: 5.90 MB as objects, 1.82 MB in Arrow",
+                "Pointers vs buffers, in plain words",
+                "3 buffers: validity bitmap, offsets, data",
+                "Chunks: why vstack gave me 57"],
+        apis=[".to_arrow()", ".estimated_size()", ".n_chunks()", ".rechunk()"],
+    ),
 }
 
 
