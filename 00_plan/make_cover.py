@@ -47,6 +47,15 @@ COVERS = {
                 "Chunks: why vstack gave me 57"],
         apis=[".to_arrow()", ".estimated_size()", ".n_chunks()", ".rechunk()"],
     ),
+    3: dict(
+        phase=1,
+        title=["Installing Polars:", "the choices nobody mentions"],
+        points=["Reproducible setup with uv and a lock file",
+                "Extras, builds and pl.show_versions()",
+                "Engines: in-memory, streaming, GPU, and auto",
+                "Spilling to disk when RAM runs out"],
+        apis=["pl.show_versions()", "pl.thread_pool_size()", "collect(engine=)", "pl.Config"],
+    ),
 }
 
 
