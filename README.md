@@ -10,5 +10,6 @@ Learning Polars and publishing a 100-post series on Medium.
 | `posts/` | Medium post drafts in markdown, kept local (git-ignored): `day_001_why_polars.md` |
 | `data/raw`, `data/processed` | datasets (not committed): e-commerce orders for Days 1–54, NYC taxi from Day 55 |
 | `assets/` | images and diagrams for posts |
+| `notes/` | concept notes from learning, beyond single posts: `compute_vs_memory.md` |
 
 Setup: `uv sync` (creates `.venv` from `pyproject.toml` and `uv.lock`). Run notebooks with the `.venv` kernel; they start in the project root, so use paths like `data/raw/...`.
