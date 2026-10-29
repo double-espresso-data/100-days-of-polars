@@ -56,6 +56,15 @@ COVERS = {
                 "Spilling to disk when RAM runs out"],
         apis=["pl.show_versions()", "pl.thread_pool_size()", "collect(engine=)", "pl.Config"],
     ),
+    4: dict(
+        phase=1,
+        title=["Series and DataFrame:", "strict types, no index"],
+        points=["One column, one type: no silent object columns",
+                "Nulls for every type, even integers",
+                "The schema is the contract",
+                "No index: what replaces .loc and alignment"],
+        apis=["pl.Series", "pl.DataFrame", ".schema", ".glimpse()"],
+    ),
 }
 
 
