@@ -65,6 +65,15 @@ COVERS = {
                 "No index: what replaces .loc and alignment"],
         apis=["pl.Series", "pl.DataFrame", ".schema", ".glimpse()"],
     ),
+    5: dict(
+        phase=1,
+        title=["read vs scan:", "the choice before any code runs"],
+        points=["read_csv is just scan_csv + collect",
+                "Fix types at read time: zip codes, dates",
+                "Parquet: 3x smaller, 4.6x faster to read",
+                "Pushdown: 3 of 8 columns read, filter in the scan"],
+        apis=["pl.read_csv", "pl.scan_parquet", "schema_overrides", ".explain()"],
+    ),
 }
 
 

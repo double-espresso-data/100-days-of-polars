@@ -4,7 +4,7 @@ day,phase,phase_name,topic,dataset,learn_status,post_status,publish_date,medium_
 2,1,Foundations and mental model,Arrow columnar memory and why Polars is fast,e-commerce,done,ready,,,"add Medium link after publishing"
 3,1,Foundations and mental model,Installing Polars and picking the right build,e-commerce,done,ready,,,"add Medium link after publishing"
 4,1,Foundations and mental model,"Series and DataFrame: schema, no index",e-commerce,done,ready,,,"add Medium link after publishing"
-5,1,Foundations and mental model,Reading data: read vs scan,e-commerce,review,draft,,,"run notebook, fill TODOs"
+5,1,Foundations and mental model,Reading data: read vs scan,e-commerce,done,ready,,,"add Medium link after publishing"
 6,1,Foundations and mental model,The four contexts,e-commerce,review,draft,,,"run notebook, fill TODOs"
 7,1,Foundations and mental model,Eager vs lazy in one picture,e-commerce,review,draft,,,"run notebook, fill TODOs"
 8,1,Foundations and mental model,pandas habits to unlearn: a cheat sheet,e-commerce,review,draft,,,"run notebook, fill TODOs"
