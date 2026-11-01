@@ -74,6 +74,15 @@ COVERS = {
                 "Pushdown: 3 of 8 columns read, filter in the scan"],
         apis=["pl.read_csv", "pl.scan_parquet", "schema_overrides", ".explain()"],
     ),
+    6: dict(
+        phase=1,
+        title=["The four contexts where", "every expression lives"],
+        points=["select: choose and compute columns",
+                "with_columns: add columns, keep everything",
+                "filter: keep rows (never adds columns)",
+                "group_by().agg(): one row per group"],
+        apis=[".select()", ".with_columns()", ".filter()", ".group_by().agg()"],
+    ),
     9: dict(
         phase=2,
         title=["What an expression", "really is"],
