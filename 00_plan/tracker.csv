@@ -8,20 +8,20 @@ day,phase,phase_name,topic,dataset,learn_status,post_status,publish_date,medium_
 6,1,Foundations and mental model,The four contexts,e-commerce,review,draft,,,"run notebook, fill TODOs"
 7,1,Foundations and mental model,Eager vs lazy in one picture,e-commerce,review,draft,,,"run notebook, fill TODOs"
 8,1,Foundations and mental model,pandas habits to unlearn: a cheat sheet,e-commerce,review,draft,,,"run notebook, fill TODOs"
-9,2,Expressions,What an expression really is,e-commerce,not started,not started,,,
-10,2,Expressions,"Selecting columns by name, regex and dtype",e-commerce,not started,not started,,,
-11,2,Expressions,Column selectors,e-commerce,not started,not started,,,
-12,2,Expressions,"Arithmetic, comparison and boolean logic",e-commerce,not started,not started,,,
-13,2,Expressions,Conditional logic,e-commerce,not started,not started,,,
-14,2,Expressions,"Expression expansion: one expression, many columns",e-commerce,not started,not started,,,
-15,2,Expressions,Naming outputs,e-commerce,not started,not started,,,
-16,2,Expressions,"Casting, strict vs non-strict",e-commerce,not started,not started,,,
-17,2,Expressions,"Nulls: fill, drop, detect",e-commerce,not started,not started,,,
-18,2,Expressions,Filtering inside aggregations,e-commerce,not started,not started,,,
-19,2,Expressions,Sorting and top-k,e-commerce,not started,not started,,,
-20,2,Expressions,Uniques and duplicates,e-commerce,not started,not started,,,
-21,2,Expressions,Reusable expression functions,e-commerce,not started,not started,,,
-22,2,Expressions,Why `map_elements` is the last resort,e-commerce,not started,not started,,,
+9,2,Expressions,What an expression really is,e-commerce,review,draft,,,"run notebook, fill TODOs"
+10,2,Expressions,"Selecting columns by name, regex and dtype",e-commerce,review,draft,,,"run notebook, fill TODOs"
+11,2,Expressions,Column selectors,e-commerce,review,draft,,,"run notebook, fill TODOs"
+12,2,Expressions,"Arithmetic, comparison and boolean logic",e-commerce,review,draft,,,"run notebook, fill TODOs"
+13,2,Expressions,Conditional logic,e-commerce,review,draft,,,"run notebook, fill TODOs"
+14,2,Expressions,"Expression expansion: one expression, many columns",e-commerce,review,draft,,,"run notebook, fill TODOs"
+15,2,Expressions,Naming outputs,e-commerce,review,draft,,,"run notebook, fill TODOs"
+16,2,Expressions,"Casting, strict vs non-strict",e-commerce,review,draft,,,"run notebook, fill TODOs"
+17,2,Expressions,"Nulls: fill, drop, detect",e-commerce,review,draft,,,"run notebook, fill TODOs"
+18,2,Expressions,Filtering inside aggregations,e-commerce,review,draft,,,"run notebook, fill TODOs"
+19,2,Expressions,Sorting and top-k,e-commerce,review,draft,,,"run notebook, fill TODOs"
+20,2,Expressions,Uniques and duplicates,e-commerce,review,draft,,,"run notebook, fill TODOs"
+21,2,Expressions,Reusable expression functions,e-commerce,review,draft,,,"run notebook, fill TODOs"
+22,2,Expressions,Why `map_elements` is the last resort,e-commerce,review,draft,,,"run notebook, fill TODOs"
 23,3,Data types in depth,The type system at a glance,e-commerce,not started,not started,,,
 24,3,Data types in depth,String cleaning,e-commerce,not started,not started,,,
 25,3,Data types in depth,Regex extraction and parsing,e-commerce,not started,not started,,,
