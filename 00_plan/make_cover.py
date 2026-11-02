@@ -83,6 +83,15 @@ COVERS = {
                 "group_by().agg(): one row per group"],
         apis=[".select()", ".with_columns()", ".filter()", ".group_by().agg()"],
     ),
+    7: dict(
+        phase=1,
+        title=["Eager vs lazy", "in one picture"],
+        points=["Same query, two words changed",
+                "Projection pushdown: 4 of 8 columns read",
+                "Predicate pushdown: filter moved into the scan",
+                "Lazy streaming 2x faster; row order not promised"],
+        apis=["pl.scan_csv", ".explain()", ".collect()", ".lazy()"],
+    ),
     9: dict(
         phase=2,
         title=["What an expression", "really is"],
