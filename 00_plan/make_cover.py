@@ -92,6 +92,15 @@ COVERS = {
                 "Lazy streaming 2x faster; row order not promised"],
         apis=["pl.scan_csv", ".explain()", ".collect()", ".lazy()"],
     ),
+    8: dict(
+        phase=1,
+        title=["12 pandas habits", "to unlearn"],
+        points=["A cheat sheet: pandas habit, Polars replacement",
+                "apply: 460 ms; when/then: 0.8 ms",
+                "AND with commas, OR with parentheses",
+                "pl.col for work, df[\"col\"] for results"],
+        apis=[".filter()", "pl.when()", ".unique()", "map_elements"],
+    ),
     9: dict(
         phase=2,
         title=["What an expression", "really is"],
