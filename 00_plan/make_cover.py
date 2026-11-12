@@ -106,9 +106,9 @@ COVERS = {
         title=["What an expression", "really is"],
         points=["A recipe for a column: no data, no work",
                 "One expression, four contexts, four shapes",
-                "Build big expressions from small ones",
+                "Output name = leftmost column, as written",
                 "Strings are column names: use pl.lit"],
-        apis=["pl.col", "pl.lit", ".meta"],
+        apis=["pl.col", "pl.lit", ".meta", "select(name=...)"],
     ),
     10: dict(
         phase=2,
