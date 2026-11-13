@@ -113,10 +113,10 @@ COVERS = {
     10: dict(
         phase=2,
         title=["Selecting columns:", "names, regex, dtypes"],
-        points=["One pl.col, three kinds of input",
+        points=["One pl.col: names, regex or dtypes",
                 "Regex only inside ^...$",
-                "Every datetime column in one line",
-                "Chain once, apply to every match"],
+                "* is not a wildcard: use .*",
+                "No dtype match = empty frame, no error"],
         apis=['pl.col("a", "b")', 'pl.col("^x_.*$")', "pl.col(pl.Int64)"],
     ),
     11: dict(
