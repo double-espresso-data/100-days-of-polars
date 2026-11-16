@@ -131,11 +131,11 @@ COVERS = {
     12: dict(
         phase=2,
         title=["Arithmetic, comparison", "and boolean logic"],
-        points=["Operators on whole columns, in Rust",
-                "Booleans sum to counts, mean to shares",
-                "Trap: & binds tighter than >",
-                "Trap: != silently drops nulls"],
-        apis=["&  |  ~", ".is_between()", ".is_in()", "any_horizontal"],
+        points=["Trap: & binds tighter than >",
+                "Trap: and / or can't combine columns",
+                "Trap: string dates read as columns",
+                "Trap: != silently dropped 610 rows"],
+        apis=["&  |  ~", ".is_between()", ".is_in()", ".ne_missing()"],
     ),
     13: dict(
         phase=2,
