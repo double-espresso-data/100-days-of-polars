@@ -151,8 +151,8 @@ COVERS = {
         title=["Expression expansion:", "one expression, many columns"],
         points=["pl.col(a, b).sum() is two expressions",
                 "Profile a whole table in one line",
-                "Down columns vs across rows",
-                "Why expansion causes DuplicateError"],
+                "exclude: names or dtypes, not both",
+                "alias on many columns still collides"],
         apis=["pl.all()", ".exclude()", "sum_horizontal", "has_multiple_outputs"],
     ),
     15: dict(
