@@ -159,9 +159,9 @@ COVERS = {
         phase=2,
         title=["Naming outputs:", "alias, suffix, map"],
         points=["Default name: the leftmost column",
-                "One rule for many columns",
-                "Fix a typo in every column name at once",
-                "with_columns overwrites without warning"],
+                "One output: alias. Many: name.*",
+                "suffix extends the current name",
+                "Same name in with_columns replaces"],
         apis=[".alias()", ".name.suffix()", ".name.map()", ".name.keep()"],
     ),
     16: dict(
