@@ -166,12 +166,12 @@ COVERS = {
     ),
     16: dict(
         phase=2,
-        title=["Casting:", "strict vs non-strict"],
+        title=["Type casting:", "strict vs non-strict"],
         points=["Strict by default: one bad value fails",
-                "strict=False: failures become nulls",
                 "Find the rows a cast threw away",
-                "Polars 2.0: str.to_date, not cast"],
-        apis=[".cast()", "strict=False", "wrap_numerical", "str.to_datetime"],
+                "Polars 2.0: str.to_date, not cast",
+                "exact parses, strict picks error or null"],
+        apis=[".cast()", "strict=False", "str.to_date", "exact=False"],
     ),
     17: dict(
         phase=2,
