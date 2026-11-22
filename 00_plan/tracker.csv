@@ -16,7 +16,7 @@ day,phase,phase_name,topic,dataset,learn_status,post_status,publish_date,medium_
 14,2,Expressions,"Expression expansion: one expression, many columns",e-commerce,done,ready,,,"add Medium link after publishing"
 15,2,Expressions,Naming outputs,e-commerce,done,ready,,,"add Medium link after publishing"
 16,2,Expressions,"Type casting in Polars: strict vs non-strict",e-commerce,done,ready,,,"add Medium link after publishing"
-17,2,Expressions,"Nulls: fill, drop, detect",e-commerce,review,draft,,,"run notebook, fill TODOs"
+17,2,Expressions,"Nulls: fill, drop, detect",e-commerce,done,ready,,,"add Medium link after publishing"
 18,2,Expressions,Filtering inside aggregations,e-commerce,review,draft,,,"run notebook, fill TODOs"
 19,2,Expressions,Sorting and top-k,e-commerce,review,draft,,,"run notebook, fill TODOs"
 20,2,Expressions,Uniques and duplicates,e-commerce,review,draft,,,"run notebook, fill TODOs"

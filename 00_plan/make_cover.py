@@ -176,10 +176,10 @@ COVERS = {
     17: dict(
         phase=2,
         title=["Nulls:", "fill, drop, detect"],
-        points=["One null for every dtype",
-                "Read what a null means first",
-                "len() counts rows, count() non-nulls",
-                "!= filters drop missing rows"],
+        points=["Read what a null means first",
+                "Fill: a value or a strategy",
+                "Sort before a forward fill",
+                "!= filter silently drops 610 rows"],
         apis=[".fill_null()", "pl.coalesce", ".drop_nulls()", ".ne_missing()"],
     ),
     18: dict(
