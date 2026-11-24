@@ -187,8 +187,8 @@ COVERS = {
         title=["Filtering inside", "aggregations"],
         points=["filter as an expression, not a context",
                 "5 conditional totals, one group_by",
-                "Row-wise checks with sum_horizontal",
-                "filter vs when: same sum, other mean"],
+                "filter vs when: mean 927 vs 26",
+                "pandas groupby().filter is different"],
         apis=[".filter() in agg", "sum_horizontal", ".n_unique()"],
     ),
     19: dict(
