@@ -82,7 +82,7 @@ Phases 1–5 build fluency with the API; phases 6–10 move to the engine, scale
 | Day | Topic | Key APIs |
 | --- | --- | --- |
 | 33 | group_by fundamentals | `group_by`, `agg` |
-| 34 | Rich expressions inside agg | `agg` with conditions, `first`, `last` |
+| 34 | Rich expressions inside agg | `agg` with conditions, `first`, `last`, `arg_max` + `get` (pandas `idxmax`) |
 | 35 | Group order and determinism | `maintain_order` |
 | 36 | Window functions | `over` |
 | 37 | Window mapping strategies | `over(mapping_strategy=)` |

@@ -194,10 +194,10 @@ COVERS = {
     19: dict(
         phase=2,
         title=["Sorting and top-k"],
-        points=["Sort rows, sort within groups, or top-k",
-                "Top product per order with sort_by",
-                "Top 3 per seller without a full sort",
-                "Trap: Expr.sort breaks row alignment"],
+        points=["Trap: Expr.sort breaks row alignment",
+                "sort vs sort_by: 1,632 wrong products",
+                "top_k: right rows, order not promised",
+                "top_k 2.5x faster than sort + head"],
         apis=[".sort()", ".sort_by()", ".top_k()", ".top_k_by()"],
     ),
     20: dict(

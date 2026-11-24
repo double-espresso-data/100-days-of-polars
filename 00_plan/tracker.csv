@@ -18,7 +18,7 @@ day,phase,phase_name,topic,dataset,learn_status,post_status,publish_date,medium_
 16,2,Expressions,"Type casting in Polars: strict vs non-strict",e-commerce,done,ready,,,"add Medium link after publishing"
 17,2,Expressions,"Nulls: fill, drop, detect",e-commerce,done,ready,,,"add Medium link after publishing"
 18,2,Expressions,Filtering inside aggregations,e-commerce,done,ready,,,"add Medium link after publishing"
-19,2,Expressions,Sorting and top-k,e-commerce,review,draft,,,"run notebook, fill TODOs"
+19,2,Expressions,Sorting and top-k,e-commerce,done,ready,,,"add Medium link after publishing"
 20,2,Expressions,Uniques and duplicates,e-commerce,review,draft,,,"run notebook, fill TODOs"
 21,2,Expressions,Reusable expression functions,e-commerce,review,draft,,,"run notebook, fill TODOs"
 22,2,Expressions,Why `map_elements` is the last resort,e-commerce,review,draft,,,"run notebook, fill TODOs"
@@ -33,7 +33,7 @@ day,phase,phase_name,topic,dataset,learn_status,post_status,publish_date,medium_
 31,3,Data types in depth,Array and Decimal (money done right),e-commerce,not started,not started,,,
 32,3,Data types in depth,Null vs NaN and other type gotchas,e-commerce,not started,not started,,,
 33,4,"Aggregation, windows and reshaping",group_by fundamentals,e-commerce,not started,not started,,,
-34,4,"Aggregation, windows and reshaping",Rich expressions inside agg,e-commerce,not started,not started,,,
+34,4,"Aggregation, windows and reshaping",Rich expressions inside agg,e-commerce,not started,not started,,,"include arg_max/get as one-pass alternative to sort_by().first() (pandas idxmax analogy, from Day 19)"
 35,4,"Aggregation, windows and reshaping",Group order and determinism,e-commerce,not started,not started,,,
 36,4,"Aggregation, windows and reshaping",Window functions,e-commerce,not started,not started,,,
 37,4,"Aggregation, windows and reshaping",Window mapping strategies,e-commerce,not started,not started,,,
